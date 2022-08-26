@@ -55,6 +55,7 @@ public class Book {
 	public void setForDays(String forDays) {
 		this.forDays = forDays;
 	}
+	// this is the parameterized constructor
 	public Book(int id, String name, String author, int price, String status, String forDays) {
 		super();
 		this.id = id;
